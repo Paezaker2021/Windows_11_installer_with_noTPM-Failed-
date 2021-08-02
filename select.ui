@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>827</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Windows 11 No-TPM Installer (Clean Install)</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+font: 10pt &quot;맑은 고딕&quot;;
+color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_4"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(0, 0, 0);
+font: 25pt &quot;맑은 고딕&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Windows 11 설치</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <spacer name="verticalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>10</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 13pt &quot;맑은 고딕&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Windows 11 버전</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Windows 11 일반 소비자용은 Home, Pro, Education으로 나누어져 있습니다. Enterprise는 기업용입니다.&lt;/p&gt;&lt;p&gt;※32비트는 Windows 11에서 지원되지 않습니다&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QListWidget" name="Versionlist">
+      <property name="font">
+       <font>
+        <family>맑은 고딕</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QScrollBar:vertical{
+	background-color:rgb(,0,100);
+	width: 25px;
+}</string>
+      </property>
+      <property name="resizeMode">
+       <enum>QListView::Fixed</enum>
+      </property>
+      <property name="viewMode">
+       <enum>QListView::ListMode</enum>
+      </property>
+      <item>
+       <property name="text">
+        <string>Windows 11 Home</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Windows 11 Education</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Windows 11 Pro</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">font: 13pt &quot;맑은 고딕&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;설치할 디스크 번호&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QListWidget" name="Disklist">
+      <property name="styleSheet">
+       <string notr="true">QScrollBar:vertical{
+	background-color:rgb(,0,100);
+	width: 25px;
+}</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>디스크 0</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>디스크 1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>디스크 2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>디스크 3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>디스크 4</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>디스크 5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>디스크 6</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>디스크 7</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>디스크 8</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>디스크 9</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>디스크 10</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">font: 13pt &quot;맑은 고딕&quot;;</string>
+      </property>
+      <property name="text">
+       <string>설치 USB의 드라이브 문자</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QPushButton" name="USB">
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(,0,100);</string>
+      </property>
+      <property name="text">
+       <string>드라이브 선택</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QPushButton" name="agreebutton">
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(,0,100);</string>
+      </property>
+      <property name="text">
+       <string>확인</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QPushButton" name="checkdisknumber">
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(,0,100);</string>
+      </property>
+      <property name="text">
+       <string>사용자 PC에 설치된 디스크 번호 확인</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
